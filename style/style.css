@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #181719;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+.logo {
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    width: 105px;
+    height: 22px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+.logo h4 {
+      font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+    li a:hover {
+    border-bottom: 4px solid rgb(252, 193, 31);
+    width: 60px;
+    transition: 0.4s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.check {
+    display: none;
+}
+
+h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: white;
+}
+#article1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+#readmore {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+/* #arrow {
+    color: white;
+} */
+h1, #article {
+    padding-top: 30%;
+}
+main {
+    display: block;
+}
+.home {
+    display: flex;
+    position: absolute;
+    justify-items: center;
+    padding: 20px;
+    
+}
+.about-interior {
+    margin: 70px;
+}
+.card-position {
+    padding-top: 80px;
+}
+.profile-card {
+    float: right;
+    width: 360px;
+    height: 189px;
+    background: #181719;
+    box-shadow: 0 5px 10px 0px black;
+    margin-right: 40px;
+    position: absolute;
+   bottom: 10px;
+   right: 30px;
+}
+.card {
+    display: flex;
+    padding: 30px;
+}
+
+.about-designer {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.about-designer h5 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+}
+
+.about-designer p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+}
+
+.profile-card h4 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin-left: 30px;
+    color: white;
+}
+#profile-picture {
+    width: 45px;
+height: 45px;
+border-radius: 50px;
+}
+/* .view {
+    
+} */
+#room1 {
+    width: 821.11px;
+    height: 586.53px;
+}
+
+footer {
+    position: absolute;
+width: 287px;
+height: 17px;
+left: 577px;
+top: 1039px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #A9A9A9;
+
+}
+
+@media (max-width: 952px){
+    .logo {
+        font-size: 14;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px){
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #181719;;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+            display: none;
+    }
+    .home {
+        display: block;
+    position: absolute;
+    justify-items: center;
+    padding: 50px;
+    }
+
+    #room1 {
+    max-width: 391.06px;
+    max-height: 279.34px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.profile-card {
+    float: right;
+    max-width: 360px;
+    max-height: 189px;
+    background: #181719;
+    box-shadow: 0 5px 10px 0px black;
+    margin-right: 40px;
+    position: absolute;
+   bottom: 10px;
+   right: 30px;
+}
+.check {
+    display: block;
+    float: right;
+    color: white;
+    font-size: 30px;
+}
+footer {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 44px;
+    top: 735px;
+}
+}
+
+@media (max-width: 700px){
+   footer {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 100px;
+    top: 1200px;
+    justify-items: center;
+}
+}
